@@ -1,0 +1,17 @@
+let employee ={
+    empId: 1,
+    empName:"Snehal",
+    empDept:"R&D",
+    empDOB: "30-June-1993"
+}
+
+console.log(employee);
+console.log(employee.empId);
+console.log(employee["empName"]);
+
+
+let employee1 ={
+    empId:1
+}
+employee1.empId=2;
+console.log(employee1.empId);
